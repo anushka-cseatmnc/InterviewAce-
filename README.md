@@ -13,12 +13,14 @@ Existing platforms offer static questions with no adaptation or voice interactio
 Human mock interviewers are expensive ($100+/session) and scheduling-dependent
 ```
 ## Our Solution
-An agentic AI interviewer that:
+
+```An agentic AI interviewer that:
 
 ✅ Adjusts difficulty based on performance (Easy → Medium → Hard)
 ✅ Asks intelligent follow-ups: "Can you optimize this? What about edge cases?"
 ✅ Remembers context throughout 45-minute sessions
 ✅ Speaks and listens naturally via voice interaction
+```
 
 ## ✨ Key Features
 
@@ -57,7 +59,7 @@ Fresh Graduates (25%) - FAANG interview preparation
 
 ## 🛠️ Technology Stack
 
-LayerTechnologyFrontendReact.js, Monaco Editor, Web Speech APIBackendNetlify Functions (Serverless)AI EngineGroq API (Llama-3.1 models)CompilerJudge0 API with Docker securityDatabaseSupabaseDeploymentNetlify with CI/CD
+```LayerTechnologyFrontendReact.js, Monaco Editor, Web Speech APIBackendNetlify Functions (Serverless)AI EngineGroq API (Llama-3.1 models)CompilerJudge0 API with Docker securityDatabaseSupabaseDeploymentNetlify with CI/CD```
 
 
 ## 📦 Installation
@@ -67,8 +69,6 @@ npm or yarn
 Stable internet connection
 Microphone (for voice features)
 ```
-
-## Setup
 
 Clone the repository
 
@@ -82,7 +82,6 @@ cd InterviewAce
 cd frontend
 npm install
 ```
-# Backend
 
 ```cd ../backend
 npm install
@@ -92,13 +91,13 @@ npm install
 
 Create .env files in both frontend and backend directories:
 
-### Frontend .env:
+ Frontend .env:
 ```envVITE_API_URL=your_backend_url
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_KEY=your_supabase_key
 ```
 
-### Backend .env:
+Backend .env:
 ```envGROQ_API_KEY=your_groq_api_key
 JUDGE0_API_KEY=your_judge0_api_key
 SUPABASE_URL=your_supabase_url
@@ -121,25 +120,7 @@ Select Company → Choose Google/Amazon/Meta/Apple
 Start Interview → 45-minute voice-enabled session
 Solve Problems → 2 DSA problems with intelligent follow-ups
 Answer Questions → CS concepts + behavioral questions
-Get Feedback → Detailed analysis and improvement areas
-
-🏗️ System Architecture
-┌─────────────┐     ┌──────────────┐     ┌─────────────┐
-│   Frontend  │────▶│   Backend    │────▶│  Groq API   │
-│  (React.js) │     │  (Netlify)   │     │  (AI)       │
-└─────────────┘     └──────────────┘     └─────────────┘
-       │                    │                     
-       │                    ▼                     
-       │            ┌──────────────┐             
-       │            │  Judge0 API  │             
-       │            │  (Compiler)  │             
-       │            └──────────────┘             
-       │                                          
-       ▼                                          
-┌─────────────┐                                  
-│  Supabase   │                                  
-│  (Database) │                                  
-└─────────────┘
+Get Feedback → Detailed analysis and improvement areas.
 
 
 ### 🎯 Performance Targets
@@ -156,6 +137,7 @@ Real-time Compilation✅✅
 Session Recovery✅
 Adaptive Difficulty✅
 24/7 Availability✅✅
+
 
 #### 📈 Market Opportunity
 
