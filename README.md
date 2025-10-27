@@ -75,8 +75,7 @@ Clone the repository
 ```bashgit clone git@github.com:anushka-cseatmnc/InterviewAce-.git
 cd InterviewAce
 ```
-
-## Install dependencies
+install dependencies 
 
 ```bash# Frontend
 cd frontend
@@ -105,12 +104,6 @@ SUPABASE_KEY=your_supabase_key
 ```
 
 Run the application
-
-bash# Frontend (from frontend directory)
-npm run dev
-
-# Backend (from backend directory)
-npm start
 
 
 ### Typical User Journey
@@ -188,7 +181,5 @@ Web Speech API - Mozilla Developer Network
 Supabase Documentation - Real-time Database Services
 Netlify Functions - Serverless Development
 
-📞 Support
-For support, email anushkachaudhary19128@gmail.com or open an issue on GitHub.
 
 InterviewAce - Making FAANG interviews accessible to everyone 🚀
