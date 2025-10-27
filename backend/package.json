@@ -1,0 +1,20 @@
+{
+  "name": "interview-ace-backend",
+  "version": "1.0.0",
+  "description": "FAANG Interview Agent Backend",
+  "main": "interview_agent.js",
+  "scripts": {
+    "start": "node interview_agent.js",
+    "dev": "nodemon interview_agent.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
