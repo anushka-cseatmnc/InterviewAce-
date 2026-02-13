@@ -99,7 +99,7 @@ An **agentic AI interviewer** that:
 | Layer | Technology |
 |-------|------------|
 | **Frontend** | React.js, Monaco Editor, Web Speech API |
-| **Backend** | Netlify Functions (Serverless) |
+| **Backend** | Python, FastAPI , Netlify Functions (Serverless) |
 | **AI Engine** | Groq API (Llama-3.1 models) |
 | **Compiler** | Judge0 API with Docker security |
 | **Database** | Supabase |
